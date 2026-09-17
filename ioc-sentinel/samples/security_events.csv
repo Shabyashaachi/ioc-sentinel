@@ -1,0 +1,8 @@
+timestamp,source_ip,destination_ip,source_port,destination_port,username,event_type,action,domain,url,hash,message
+2026-09-15T10:00:00,45.33.22.11,10.0.0.10,51220,22,alice,authentication,failed_login,,,,SSH authentication failure
+2026-09-15T10:01:00,45.33.22.11,10.0.0.10,51221,22,bob,authentication,failed_login,,,,SSH authentication failure
+2026-09-15T10:02:00,45.33.22.11,10.0.0.10,51222,22,carol,authentication,failed_login,,,,SSH authentication failure
+2026-09-15T10:03:00,45.33.22.11,10.0.0.10,51223,22,david,authentication,failed_login,,,,SSH authentication failure
+2026-09-15T10:04:00,45.33.22.11,10.0.0.10,51224,22,admin,authentication,failed_login,,,,SSH authentication failure
+2026-09-15T10:04:30,45.33.22.11,10.0.0.10,51225,22,admin,authentication,login_success,,,,Successful authentication
+2026-09-15T10:05:00,10.0.0.5,10.0.0.30,41000,4444,,network,connection,,,,Outbound connection

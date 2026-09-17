@@ -1,0 +1,3 @@
+# Runtime dependencies: none (Python standard library only)
+# Development/test dependency:
+pytest>=8.0,<9.0

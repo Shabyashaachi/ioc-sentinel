@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ioc-sentinel"
+version = "0.1.0"
+description = "Lightweight threat-intelligence correlation and SOC triage engine"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Sourajyoti Paul"}]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<9.0"]
+
+[project.scripts]
+ioc-sentinel = "ioc_sentinel.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+include = ["ioc_sentinel*"]
